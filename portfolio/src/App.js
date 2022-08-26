@@ -6,16 +6,21 @@ import Contact from './components/contact';
 
 function App() {
   // insert constants 
-  const [categories] = [ 'about', 'work', 'contact']
-  const [currentCategory, setCurrentCategory] = useState(categories[0]);
+  const [aboutSelected, setAboutSelected] = useState(true);
+  const [workSelected, setWorkSelected] = useState(false);
+  const [contactSelected, setContactSelected] = useState(false);
   
   return (
     <div>
-      <Nav>
-        {/* insert data */}
-      </Nav>
+      <Nav
+        setAboutSelected = {setAboutSelected}
+        setWorkSelected = {setWorkSelected}
+        setContactSelected = {setContactSelected}
+      ></Nav>
       <main>
-        {/* insert data */}
+        {aboutSelected && (<><About></About></>)}
+        {workSelected && (<><Work></Work></>)}
+        {contactSelected && (<><Contact></Contact></>)}
       </main>
     </div>
   );

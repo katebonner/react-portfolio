@@ -3,7 +3,7 @@ import React from 'react';
 function Work() {
     return (
         <section>
-            {/* insert data */}
+            <h2>**work section**</h2>
         </section>
     );
 }

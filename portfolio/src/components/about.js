@@ -1,9 +1,10 @@
 import React from 'react';
 
+
 function About() {
     return (
         <section>
-            {/* insert data */}
+            <h2>**about section**</h2>
         </section>
     );
 }
