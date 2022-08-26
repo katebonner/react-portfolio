@@ -16,6 +16,9 @@ function App() {
         setAboutSelected = {setAboutSelected}
         setWorkSelected = {setWorkSelected}
         setContactSelected = {setContactSelected}
+        aboutSelected = {aboutSelected}
+        workSelected = {workSelected}
+        contactSelected = {contactSelected}
       ></Nav>
       <main>
         {aboutSelected && (<><About></About></>)}
