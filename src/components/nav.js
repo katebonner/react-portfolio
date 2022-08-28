@@ -1,6 +1,6 @@
 import React from 'react';
 import Cv from '../assets/Kate_Bonner_CV.pdf';
-import Graphic from '../assets/katie-03.png';
+import Graphic from '../assets/katie-04.png';
 
 function Nav(props) {
     const {
@@ -13,36 +13,33 @@ function Nav(props) {
       } = props;
 
     return (
-        <header>
-            {/* <h1 class="title">
-                <span>z=</span>ka+ie
-            </h1> */}
+        <header class='transitionIn'>
             <img src={Graphic} alt='graphic' class='img'/>
             <nav class='navigation'>
                 <ul class='navigation-list'>
                     <li class={`${aboutSelected && `selected`}`}>
-                        <a id="about" onClick={() => {
+                        <p id="about" onClick={() => {
                             setAboutSelected(true)
                             setWorkSelected(false)
                             setContactSelected(false)
-                        }}>about</a>
+                        }}>about</p>
                     </li>
                     <li class={`${workSelected && `selected`}`}>
-                        <a id='work' onClick={() => {
+                        <p id='work' onClick={() => {
                             setAboutSelected(false)
                             setWorkSelected(true)
                             setContactSelected(false)
-                        }}>work</a>
+                        }}>work</p>
                     </li>
                     <li class={`${contactSelected && `selected`}`}>
-                        <a id='contact' onClick={() => {
+                        <p id='contact' onClick={() => {
                             setAboutSelected(false)
                             setWorkSelected(false)
                             setContactSelected(true)
-                        }}>contact</a>
+                        }}>contact</p>
                     </li>
                     <li>
-                        <a href={Cv} target="_blank">cv</a>
+                        <p><a href={Cv} target="_blank" rel="noopener noreferrer">cv</a></p>
                     </li>
                 </ul>
             </nav>

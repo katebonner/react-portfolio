@@ -1,12 +1,11 @@
 import React from 'react';
-import Graphic from '../assets/katie-03.png';
 
-
-function About() {
+function About(props) {
+    const {
+        showIntroComponent
+      } = props;
     return (
-        <section>
-            {/* <img src={Graphic} alt='graphic' class='img'/> */}
-            <h2 >ABOUT</h2>
+        <section class={`container ${!showIntroComponent && `transitionIn`}`}>
             <p class='about-text'>CREATIVE FULL-STACK WEB DEVELOPER WITH A BACHELOR'S DEGREE IN PHYSICS, A MASTER'S DEGREE IN DESIGN AND TECHNOLOGY, AND PROFESSIONAL EXPERIENCE IN CYBERSECURITY. SKILLS IN HTML, CSS, JAVASCRIPT, NODE.JS, REACT, SQL, MONGODB, AND ORM. PASSIONATE ABOUT THE POETIC INTERPLAY BETWEEN DESIGN AND DEVELOPMENT. STRENGTHS IN SELF-DIRECTED LEARNING, CREATIVITY IN DESIGNING SOLUTIONS, AND TENACITY IN BRINGING THOSE SOLUTIONS TO FRUITION. EXCITED TO BUILD RESPONSIVE WEBSITES AND CONTINUE EXPLORING THE CREATIVE AND ANALYTICAL USE OF EMERGING TECHNOLOGIES AS MEDIUMS FOR BOTH VISUAL AND MATHEMATICAL STORYTELLING.</p>
         </section>
     );
