@@ -1,6 +1,5 @@
 import React from 'react';
 import Cv from '../assets/Kate_Bonner_CV.pdf';
-import Graphic from '../assets/katie-04.png';
 
 function Nav(props) {
     const {
@@ -14,7 +13,7 @@ function Nav(props) {
 
     return (
         <header class='transitionIn'>
-            <img src={Graphic} alt='graphic' class='img'/>
+            <h1 class='logo'>ka+ie</h1>
             <nav class='navigation'>
                 <ul class='navigation-list'>
                     <li class={`${aboutSelected && `selected`}`}>

@@ -3,7 +3,8 @@ import React from 'react';
 function Work() {
     const project = [
     { 
-        title: 'DATABAE', 
+        title: 'DATABAE',
+        demoPath: 'databae.mov', 
         date: 'MAY 2022',
         deployedApplication: 'https://warm-castle-61727.herokuapp.com/',
         github: 'https://github.com/katebonner/databae-chat',
@@ -12,6 +13,7 @@ function Work() {
     },
     { 
         title: 'SAFE WALK', 
+        demoPath: 'safe-walk-demo.mov',
         date: 'AUGUST 2022',
         deployedApplication: 'https://katebonner.github.io/safe-walk/',
         github: 'https://github.com/katebonner/safe-walk',
@@ -25,6 +27,7 @@ function Work() {
             <div class='work-container transitionIn'>
                 {project.map((project)=> (
                     <div class='project-container'>
+                        <video playsinline autoPlay loop muted src={require(`../assets/${project.demoPath}`)} type="video/mp4" alt={`${project.title} demo video`}></video>
                         <h3 class='project-title'>{project.title}</h3>
                         <h5 class='project-elements'>{project.date}</h5>
                         <h5 class='project-elements'>

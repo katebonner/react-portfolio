@@ -1,10 +1,8 @@
 :root {
-  cursor: url('./assets/cursor-03.png'), auto;
+  /* cursor: url('./assets/i3.png'), auto; */
   --pink: #FF0037;
   --white: #FFF4EC;
   --green: #62C370;
-  --black: #232e25;
-
  
 }
 
@@ -56,16 +54,21 @@ body {
   font-family: GT-Pressura-Mono,ui-monospace,SFMono-Regular,Menlo,Monaco,Consolas,Liberation Mono,Courier New,monospace;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
-  background-color: var(--white);
-  color:var(--pink);
+  background-color: white;
+  color:black;
 }
 
 .intro {
   text-align: center;
   width: 100%;
-  padding:20% 0;
+  padding:30% 0 0 0;
   margin:0;
-  position: fixed;
+  letter-spacing: .3em;
+}
+
+.logo {
+  letter-spacing: .3em;
+  text-align: center;
 }
 
 .title {
@@ -80,27 +83,42 @@ body {
 }
 
 .selected {
-  border: dashed 1px var(--green);
-  border-radius: 15px;
+  border-bottom: dashed 1px black;
   padding: 1%;
 }
 
 a {
   text-decoration: none;
-  color:var(--pink);
-  cursor: url('./assets/cursor-04.png'), pointer;
+  color: black;
+  cursor: pointer;
+  /* cursor: url('./assets/cursor-04.png'), pointer; */
 }
+
+#about,
+#work,
+#contact,
+.logo {
+  cursor: pointer;
+}
+
 
 .container {
   display: flex;
   justify-content: center;
 }
 
+.icon-container {
+  display: flex;
+  justify-content: center;
+  padding: 5%;
+}
+
 .about-text {
   font-size: 35px;
-  width: 95%;
+  width: 85%;
   text-align: justify;
   color: var(--black);
+  margin: 2% 0 10% 0;
 }
 
 span {
@@ -129,7 +147,7 @@ span {
   list-style: none;
   font-size: 1.5vw;
   letter-spacing: .2em;
-  cursor: url('./assets/cursor-04.png'), pointer;
+  /* cursor: url('./assets/cursor-04.png'), pointer; */
 }
 
 p {
@@ -138,7 +156,7 @@ p {
 }
 
 .img {
-  width: 40%;
+  width: 30%;
   margin:0;
   padding: 10px;
 }
@@ -153,16 +171,22 @@ p {
 
 .project-container {
   border-radius: 15px;
-  border: dashed 1px var(--pink);
-  width: 35%;
+  width: 45%;
   margin: 2% 2%;
   padding:0px;
   overflow: hidden;
   flex-wrap: wrap;
 }
 
+video {
+  text-align: center;
+  width: 90%;
+  margin: 5%;
+  border-radius: 15px;
+}
+
 .project-title {
-  margin:4%;
+  margin:0 4% 4% 4%;
   letter-spacing: 0.2em;
 
 }
@@ -182,15 +206,52 @@ p {
 
 .tags {
   border-radius: 5px;
-  background-color: var(--green);
-  color: var(--white);
+  border: dashed 1px black;
+  color: black;
   padding: 5px;
   margin: 5px;
   width: fit-content;
 }
 
+.icon {
+  height: 50px;
+  width: 60px;
+  margin: 10px;
+}
 
 code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
+}
+
+@media screen and (max-width: 900px) {
+  .project-container {
+    width: 90%;
+  }
+
+  .navigation-list li {
+    font-size: 4vw;
+    margin: 10px;
+
+  }
+
+  .img {
+    width: 50%;
+  }
+  .icon-container {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .icon {
+    height: 100px;
+    width: 120px;
+    margin-top: 50px;
+  }
+
+  .intro {
+    margin-top: 20%;
+  }
 }
