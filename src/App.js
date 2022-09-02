@@ -4,6 +4,7 @@ import About from './components/about';
 import Header from './components/nav';
 import Work from './components/work';
 import Contact from './components/contact';
+import Footer from './components/footer.js';
 
 function App() {
   // insert constants 
@@ -42,6 +43,7 @@ function App() {
         {contactSelected && (<><Contact
         showIntroComponent = {showIntroComponent}
         ></Contact></>)}
+        <><Footer></Footer></>
       </main>
       </>}
     </div>

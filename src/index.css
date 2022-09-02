@@ -66,6 +66,14 @@ body {
   letter-spacing: .3em;
 }
 
+.footer {
+  text-align: center;
+  font-size: .8em;
+  padding: 0;
+  margin: 5%;
+  letter-spacing: .3em;
+}
+
 .logo {
   letter-spacing: .3em;
   text-align: center;
