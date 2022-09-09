@@ -1,7 +1,7 @@
 {
-  "main.css": "/react-portfolio/static/css/main.bdc8a03c.chunk.css",
-  "main.js": "/react-portfolio/static/js/main.598ce822.chunk.js",
-  "main.js.map": "/react-portfolio/static/js/main.598ce822.chunk.js.map",
+  "main.css": "/react-portfolio/static/css/main.4da84c3c.chunk.css",
+  "main.js": "/react-portfolio/static/js/main.a64fa4a2.chunk.js",
+  "main.js.map": "/react-portfolio/static/js/main.a64fa4a2.chunk.js.map",
   "static/js/1.8f2f4211.chunk.js": "/react-portfolio/static/js/1.8f2f4211.chunk.js",
   "static/js/1.8f2f4211.chunk.js.map": "/react-portfolio/static/js/1.8f2f4211.chunk.js.map",
   "static/js/2.c638d638.chunk.js": "/react-portfolio/static/js/2.c638d638.chunk.js",
@@ -19,10 +19,10 @@
   "static/media/katie-03.png": "/react-portfolio/static/media/katie-03.ccd508cf.png",
   "static/media/katie-04.png": "/react-portfolio/static/media/katie-04.04d47c40.png",
   "static/media/kick.mp4": "/react-portfolio/static/media/kick.4ef25287.mp4",
-  "static/media/places-demo.mov": "/react-portfolio/static/media/places-demo.ed201488.mov",
+  "static/media/places-demo-video.mov": "/react-portfolio/static/media/places-demo-video.dc5f7a62.mov",
   "static/media/safe-walk-demo.mov": "/react-portfolio/static/media/safe-walk-demo.be10e60a.mov",
-  "static/css/main.bdc8a03c.chunk.css.map": "/react-portfolio/static/css/main.bdc8a03c.chunk.css.map",
+  "static/css/main.4da84c3c.chunk.css.map": "/react-portfolio/static/css/main.4da84c3c.chunk.css.map",
   "index.html": "/react-portfolio/index.html",
-  "precache-manifest.1e045f08d22f303c85789e48e12c40ab.js": "/react-portfolio/precache-manifest.1e045f08d22f303c85789e48e12c40ab.js",
+  "precache-manifest.fafae9a02b3149930fd0343dafab743e.js": "/react-portfolio/precache-manifest.fafae9a02b3149930fd0343dafab743e.js",
   "service-worker.js": "/react-portfolio/service-worker.js"
 }
