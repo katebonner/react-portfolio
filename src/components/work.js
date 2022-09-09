@@ -4,7 +4,7 @@ function Work() {
     const project = [
     { 
         title: 'PLACES',
-        demoPath: 'places-demo.mov', 
+        demoPath: 'places-demo-video.mov', 
         date: 'SEPTEMBER 2022',
         deployedApplication: 'https://damp-sea-22160.herokuapp.com/',
         github: 'https://github.com/katebonner/places',
