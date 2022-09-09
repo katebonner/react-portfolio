@@ -3,6 +3,15 @@ import React from 'react';
 function Work() {
     const project = [
     { 
+        title: 'PLACES',
+        demoPath: 'places-demo.mov', 
+        date: 'SEPTEMBER 2022',
+        deployedApplication: 'https://damp-sea-22160.herokuapp.com/',
+        github: 'https://github.com/katebonner/places',
+        description: "THIS IS A FULL STACK MERN PROJECT. IT IS A SIMPLE SOCIAL MEDIA APP TO HOST A PERSONAL ARSENAL OF GROOVY PLACES IN NYC",
+        technologies: ['REACT', 'GRAPHQL', 'MONGODB', 'MONGOOSE', 'APOLLO', 'BCRYPT', 'EXPRESS', 'BCRYPT', 'JAVASCRIPT', 'HTML', 'CSS']
+    },
+    { 
         title: 'DATABAE',
         demoPath: 'databae.mov', 
         date: 'MAY 2022',
