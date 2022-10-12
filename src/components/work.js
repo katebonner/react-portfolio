@@ -3,6 +3,15 @@ import React from 'react';
 function Work() {
     const project = [
     { 
+        title: 'LEVEL',
+        demoPath: 'level.mov', 
+        date: 'OCTOBER 2022',
+        deployedApplication: 'https://damp-sea-22160.herokuapp.com/',
+        github: 'https://github.com/katebonner/level',
+        description: "CREATED FOR USERS WHO WANT TO FIND OUT THE HAPPINESS LEVEL ASSOCIATED WITH THEIR TOP TRACKS ON SPOTIFY",
+        technologies: ['SPOTIFY API', 'REACT', 'JAVASCRIPT', 'CSS']
+    },
+    { 
         title: 'PLACES',
         demoPath: 'places-demo-video.mov', 
         date: 'SEPTEMBER 2022',
