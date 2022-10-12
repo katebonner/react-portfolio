@@ -6,7 +6,7 @@ function Work() {
         title: 'LEVEL',
         demoPath: 'level.mov', 
         date: 'OCTOBER 2022',
-        deployedApplication: 'https://damp-sea-22160.herokuapp.com/',
+        deployedApplication: 'https://boiling-retreat-31003.herokuapp.com/',
         github: 'https://github.com/katebonner/level',
         description: "CREATED FOR USERS WHO WANT TO FIND OUT THE HAPPINESS LEVEL ASSOCIATED WITH THEIR TOP TRACKS ON SPOTIFY",
         technologies: ['SPOTIFY API', 'REACT', 'REACT QUERY', 'JAVASCRIPT', 'CSS']
